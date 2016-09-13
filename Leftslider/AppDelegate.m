@@ -7,8 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "LeftViewController.h"
+#import "LeftsliderViewController.h"
 
 @interface AppDelegate ()
+
+@property (strong, nonatomic) LeftsliderViewController * leftSlideVc;
 
 @end
 
@@ -16,7 +21,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    ViewController * viewVC = [[ViewController alloc] init];
+    UINavigationController *  viewNC = [[UINavigationController alloc] initWithRootViewController:viewVC];
+    
+    LeftViewController * leftVC = [[LeftViewController alloc] init];
+    
+    _leftSlideVc = [[LeftsliderViewController alloc] initWithLeftView:leftVC andMainView:viewNC];
+    self.window.rootViewController = _leftSlideVc;
+    
+
     return YES;
 }
 

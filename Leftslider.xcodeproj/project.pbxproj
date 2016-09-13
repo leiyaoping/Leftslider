@@ -10,11 +10,14 @@
 		F5F1D18A1D87F717000D200C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F1D1891D87F717000D200C /* main.m */; };
 		F5F1D18D1D87F717000D200C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F1D18C1D87F717000D200C /* AppDelegate.m */; };
 		F5F1D1901D87F717000D200C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F1D18F1D87F717000D200C /* ViewController.m */; };
-		F5F1D1931D87F717000D200C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F1D1911D87F717000D200C /* Main.storyboard */; };
 		F5F1D1951D87F717000D200C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F1D1941D87F717000D200C /* Assets.xcassets */; };
 		F5F1D1981D87F717000D200C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F1D1961D87F717000D200C /* LaunchScreen.storyboard */; };
 		F5F1D1A31D87F717000D200C /* LeftsliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F1D1A21D87F717000D200C /* LeftsliderTests.m */; };
 		F5F1D1AE1D87F717000D200C /* LeftsliderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F1D1AD1D87F717000D200C /* LeftsliderUITests.m */; };
+		F5F1D1BE1D87F76A000D200C /* LeftsliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F1D1BD1D87F76A000D200C /* LeftsliderViewController.m */; };
+		F5F1D1C41D87F85E000D200C /* UIView+extra.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F1D1C31D87F85E000D200C /* UIView+extra.m */; };
+		F5F1D1C71D87F9F3000D200C /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F1D1C61D87F9F3000D200C /* LeftViewController.m */; };
+		F5F1D20B1D880238000D200C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F1D20A1D880238000D200C /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +44,6 @@
 		F5F1D18C1D87F717000D200C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F5F1D18E1D87F717000D200C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F5F1D18F1D87F717000D200C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F5F1D1921D87F717000D200C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5F1D1941D87F717000D200C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5F1D1971D87F717000D200C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5F1D1991D87F717000D200C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,13 @@
 		F5F1D1A91D87F717000D200C /* LeftsliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeftsliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F1D1AD1D87F717000D200C /* LeftsliderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftsliderUITests.m; sourceTree = "<group>"; };
 		F5F1D1AF1D87F717000D200C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F1D1BC1D87F76A000D200C /* LeftsliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftsliderViewController.h; sourceTree = "<group>"; };
+		F5F1D1BD1D87F76A000D200C /* LeftsliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftsliderViewController.m; sourceTree = "<group>"; };
+		F5F1D1C21D87F85E000D200C /* UIView+extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+extra.h"; sourceTree = "<group>"; };
+		F5F1D1C31D87F85E000D200C /* UIView+extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+extra.m"; sourceTree = "<group>"; };
+		F5F1D1C51D87F9F3000D200C /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		F5F1D1C61D87F9F3000D200C /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		F5F1D20A1D880238000D200C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,8 @@
 		F5F1D17C1D87F717000D200C = {
 			isa = PBXGroup;
 			children = (
+				F5F1D20A1D880238000D200C /* Default-568h@2x.png */,
+				F5F1D1BB1D87F746000D200C /* LeftsliderViewController */,
 				F5F1D1871D87F717000D200C /* Leftslider */,
 				F5F1D1A11D87F717000D200C /* LeftsliderTests */,
 				F5F1D1AC1D87F717000D200C /* LeftsliderUITests */,
@@ -105,7 +116,8 @@
 				F5F1D18C1D87F717000D200C /* AppDelegate.m */,
 				F5F1D18E1D87F717000D200C /* ViewController.h */,
 				F5F1D18F1D87F717000D200C /* ViewController.m */,
-				F5F1D1911D87F717000D200C /* Main.storyboard */,
+				F5F1D1C51D87F9F3000D200C /* LeftViewController.h */,
+				F5F1D1C61D87F9F3000D200C /* LeftViewController.m */,
 				F5F1D1941D87F717000D200C /* Assets.xcassets */,
 				F5F1D1961D87F717000D200C /* LaunchScreen.storyboard */,
 				F5F1D1991D87F717000D200C /* Info.plist */,
@@ -138,6 +150,17 @@
 				F5F1D1AF1D87F717000D200C /* Info.plist */,
 			);
 			path = LeftsliderUITests;
+			sourceTree = "<group>";
+		};
+		F5F1D1BB1D87F746000D200C /* LeftsliderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F5F1D1BC1D87F76A000D200C /* LeftsliderViewController.h */,
+				F5F1D1BD1D87F76A000D200C /* LeftsliderViewController.m */,
+				F5F1D1C21D87F85E000D200C /* UIView+extra.h */,
+				F5F1D1C31D87F85E000D200C /* UIView+extra.m */,
+			);
+			path = LeftsliderViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +271,7 @@
 			files = (
 				F5F1D1981D87F717000D200C /* LaunchScreen.storyboard in Resources */,
 				F5F1D1951D87F717000D200C /* Assets.xcassets in Resources */,
-				F5F1D1931D87F717000D200C /* Main.storyboard in Resources */,
+				F5F1D20B1D880238000D200C /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +299,9 @@
 				F5F1D1901D87F717000D200C /* ViewController.m in Sources */,
 				F5F1D18D1D87F717000D200C /* AppDelegate.m in Sources */,
 				F5F1D18A1D87F717000D200C /* main.m in Sources */,
+				F5F1D1C71D87F9F3000D200C /* LeftViewController.m in Sources */,
+				F5F1D1C41D87F85E000D200C /* UIView+extra.m in Sources */,
+				F5F1D1BE1D87F76A000D200C /* LeftsliderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +337,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F5F1D1911D87F717000D200C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5F1D1921D87F717000D200C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F5F1D1961D87F717000D200C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Leftslider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.share.Leftslider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Leftslider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.share.Leftslider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -499,6 +519,7 @@
 				F5F1D1B41D87F717000D200C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5F1D1B51D87F717000D200C /* Build configuration list for PBXNativeTarget "LeftsliderTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +528,7 @@
 				F5F1D1B71D87F717000D200C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5F1D1B81D87F717000D200C /* Build configuration list for PBXNativeTarget "LeftsliderUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +537,7 @@
 				F5F1D1BA1D87F717000D200C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
